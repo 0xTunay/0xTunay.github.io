@@ -57,8 +57,8 @@ body{
         transform: translateY(25px);
     }
 }
-.container .circle::after{
-    content: 'Happy Christmas';
+.container .circle::after {
+    content: 'Happy New Year!!!';
     position: absolute;
     inset: -125px -200px;
     font-size: 4em;
@@ -67,6 +67,18 @@ body{
     align-items: flex-end;
     color: #fff;
 }
+
+.container .circle::before {
+    content: '2025';
+    position: absolute;
+    inset: -80px -150px;
+    font-size: 4.5em;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: #FFD700;
+}
+
 .container .snow{
     position: relative;
     display: flex;
