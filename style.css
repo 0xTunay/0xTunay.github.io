@@ -13,6 +13,7 @@ body{
     align-items: center;
     min-height: 100vh;
     background: linear-gradient( #2b1e74, #0c7936);
+    /* background: linear-gradient( #aa200a, #cf0000); */
 }
 .container{
     position: relative;
