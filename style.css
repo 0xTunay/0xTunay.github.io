@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+/* <@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+ */
+
 *{
     margin: 0;
     padding: 0;
@@ -10,7 +12,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient( #aa200a, #cf0000);
+    background: linear-gradient( #2b1e74, #0c7936);
 }
 .container{
     position: relative;
@@ -41,7 +43,6 @@ body{
     content: '';
     position: absolute;
     inset: -200px -300px;
-    background: url(./img/santa.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 600px;
@@ -58,18 +59,18 @@ body{
     }
 }
 .container .circle::after {
-    content: 'Happy New Year!!!';
+    content: 'C';
     position: absolute;
-    inset: -125px -200px;
-    font-size: 4em;
+    inset: 55px 150px;
+    font-size: 14em;
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    color: #fff;
+    color: #608bf3;
 }
 
 .container .circle::before {
-    content: '2025';
+    content: 'Happy Coding';
     position: absolute;
     inset: -80px -150px;
     font-size: 4.5em;
